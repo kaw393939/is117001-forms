@@ -20,7 +20,17 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <form action="form.php" method="POST">
+	<fieldset>
+	    <legend>Personal info</legend>
+	<label for "firstname">First name:</label>
+	<input type="text" name="firstname"><br>
+	<label for "lastname">Last name:</label> 
+	<input type="text" name="lastname">
+	<input type="submit">
+	</fieldset>
+	</form>
+
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/{{JQUERY_VERSION}}/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
